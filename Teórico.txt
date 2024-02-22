@@ -1,0 +1,29 @@
+Elementos inline "son elementos que van a ocupar todo el ancho de la palabra"
+span 
+a
+
+    -NO PUEDE HABER ANCHOS
+
+
+
+
+
+
+Elementos Block ""son elementos que van a ocupar todo el ancho de la pantalla" 
+( div, hx, main, body, p, aside, foster, header, nav, article, section) Se pone uno debajo del otro
+
+    SI PUEDE HABER ANCHOS
+
+
+
+
+
+
+
+
+Elementos inline-Block (input, img, botones, select, text area, video, iframe) Se pone una al lado de la otra
+
+
+
+
+

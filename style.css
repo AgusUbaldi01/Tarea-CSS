@@ -1,0 +1,76 @@
+/* 
+Propiedades:
+-color
+-height
+-width
+background-color ----- rellena de color 
+font-size
+border-radius
+border
+text-shadow
+font-weight ---- cambia el peso de la fuente
+letter-spacing
+word-spacing
+line-height
+*/
+
+/* BOX MODELING */
+
+/* 
+height Alto de los elementos
+width Ancho de los elementos
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* Esto me permite que no se me modifiquen los margenes de las cajas cuando coloque un padding */
+
+
+
+
+h1 {
+    background-color: blue;
+}
+
+span {
+    background-color: chocolate;
+}
+
+input {
+    width: 400px
+}
+
+label {
+    width: 300px;
+}
+
+/* margin */
+/* Espacio del borde para afuera */
+
+.box {
+    width: 100px;
+    background-color: blue;
+    height: 100px;
+    /*   margin: 100px 50px 20px; */
+    /* 1° arriba, 2° derecha, 3° abajo 4° izquierda */
+    /* Evita lineas de código */
+    display: inline-block;
+    margin-right: 20 px;
+    border-radius: 20px;
+    /* border: dashed 1px red; border: dotted 1px red; border: double 1px red; border: inset 1px red; border: outset 1px red;  border: solid 1px red;*/
+}
+
+/* padding */
+/* espacio del borde para adentro */
+
+.box h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+/* DISPLAY */
+/* Cambio de categorias */
+/* Se utiliza para poner una caja al lado de la otra */
